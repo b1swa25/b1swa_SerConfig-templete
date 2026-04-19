@@ -1,6 +1,6 @@
 # Minimalist Professional Terminal Branding Suite
 
-![Terminal Branding Showcase](file:///home/b1swa/Downloads/Untitled Folder 2/Banner/media/image3.png)
+![Terminal Branding Showcase](https://github.com/b1swa25/b1swa_Server-templete/blob/main/Banner/assets/image3.png)
 
 A professional, distraction-free branding and monitoring suite for Linux terminal environments. This project automates the deployment of high-impact ASCII banners, dynamic system health dashboards (MOTD), and security-aware self-healing logic.
 
@@ -25,7 +25,7 @@ A professional, distraction-free branding and monitoring suite for Linux termina
 
 The system uses a **Traffic Light System** to alert you to issues at a glance:
 
-![Color Logic](file:///home/b1swa/Downloads/Untitled Folder 2/Banner/media/image8.png)
+![Color Logic](https://github.com/b1swa25/b1swa_Server-templete/blob/main/Banner/assets/image8.png)
 
 - **Health Stats (Disk/RAM)**:
   - **Green**: Safe usage.
