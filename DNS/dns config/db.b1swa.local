@@ -1,0 +1,11 @@
+$TTL 1D
+@ IN SOA ns1.b1swa.local. admin.b1swa.local. (
+                  2026041801 ; serial
+                  4H         ; refresh
+                  30M        ; retry
+                  2W         ; expire
+                  1H )       ; minimum
+@ IN NS ns1.b1swa.local.
+ns1 IN A 10.0.2.15
+@ IN A 10.0.2.15
+www IN A 10.0.2.15

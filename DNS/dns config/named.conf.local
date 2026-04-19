@@ -1,0 +1,2 @@
+zone "b1swa.local" { type master; file "/etc/bind/zones/db.b1swa.local"; };
+zone "2.0.10.in-addr.arpa" { type master; file "/etc/bind/zones/db.reverse"; };
