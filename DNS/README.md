@@ -63,7 +63,7 @@ dig @localhost b1swa.local
 named-checkconf
 ```
 
-![Verification Test](../assets/verification_test.png)
+![Verification Test](https://github.com/b1swa25/b1swa_Server-templete/blob/main/DNS/assets/verification_test.png)
 
 ---
 
