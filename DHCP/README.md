@@ -104,5 +104,5 @@ sudo systemctl status isc-dhcp-server
 ## 📄 License & Integrity
 Developed and maintained by **b1swa**.
 
-**Copyright © 2024 b1swa**  
+**Copyright © 2026 b1swa**  
 *All rights reserved. Secure, Native, and Professional Network Infrastructure.*
