@@ -1,0 +1,23 @@
+##############################################################################
+##               B1SWA PRIVATE NETWORK MANAGEMENT PLATFORM                ##
+##############################################################################
+  Welcome, $USER! | System Time: $(date)
+  ===[ SYSTEM HEALTH ]=========================================================
+  |  OS:       $(grep PRETTY_NAME /etc/os-release | awk -F'"' '{print $2}' | head -n1)
+  |  Kernel:   $(uname -r)     Updates: $(apt-get -s dist-upgrade | grep "^Inst" | wc -l) Pending
+  |  Uptime:   $(uptime -p 2>/dev/null || uptime | cut -d',' -f1)     Firewall: $(ufw status | grep -i "Status" | awk '{print $2}')
+
+  ===[ STORAGE & MEMORY ]============  ===[ NETWORK IPS ]===============
+  |  Disk (/): $(df -h / | awk '/\// { printf "%s / %s (%s)", $3, $2, $5 }' | tail -n1)     |  | $(hostname -I)
+  |  Memory:   $(free -m | awk '/Mem:/ { printf "%sMB / %sMB (%.1f%%)", $3, $2, $3/$2*100 }') |  =================================
+  ====================================
+
+  ===[ SECURITY AUDIT ]==============  ===[ SERVICES ]==================
+  |  Failed:    $(journalctl _SYSTEMD_UNIT=ssh.service 2>/dev/null | grep "Failed password" | grep "$(date +'%b %d')" | wc -l || echo "0") [OK]           |  | DHCP: $(systemctl is-active isc-dhcp-server 2>/dev/null)
+  |  Last From: $(last -n 2 -R $USER | head -n 2 | tail -n 1 | awk '{print $3 " on " $4 " " $5 " " $6}') |  | DNS:  $(systemctl is-active bind9 2>/dev/null || echo "N/A")
+  ====================================  =================================
+
+  SUPPORT: Admin (sandipbiswa10@gmail.com)
+
+  THOUGHT OF THE DAY:
+  " Simplicity is the soul of efficiency. "
