@@ -1,6 +1,6 @@
 # 🚀 Private DHCP Setup Tool (Native ISC DHCP)
 
-![DHCP Banner](/home/b1swa/.gemini/antigravity/brain/38763a73-988b-488c-a3bf-082402957a91/dhcp_banner_1776532883027.png)
+![DHCP Banner](https://github.com/b1swa25/b1swa_Server-templete/blob/main/DHCP/assets/banner.png)
 
 An advanced, interactive bash-driven suite designed to deploy and manage a **Native ISC DHCP Server** on Ubuntu/Debian systems. This tool streamlines the deployment process, handling everything from network interface binding to automated firewall orchestration.
 
@@ -22,15 +22,15 @@ An advanced, interactive bash-driven suite designed to deploy and manage a **Nat
 Experience the guided setup process through these interactive stages:
 
 ````carousel
-![Welcome Screen](/home/b1swa/Downloads/Untitled%20Folder%202/DHCP/assets/image12.png)
+![Welcome Screen](https://github.com/b1swa25/b1swa_Server-templete/blob/main/DHCP/assets/image12.png)
 <!-- slide -->
-![Firewall Configuration](/home/b1swa/Downloads/Untitled%20Folder%202/DHCP/assets/image13.png)
+![Firewall Configuration](https://github.com/b1swa25/b1swa_Server-templete/blob/main/DHCP/assets/image13.png)
 <!-- slide -->
-![Installation Success](/home/b1swa/Downloads/Untitled%20Folder%202/DHCP/assets/image7.png)
+![Installation Success](https://github.com/b1swa25/b1swa_Server-templete/blob/main/DHCP/assets/image7.png)
 <!-- slide -->
-![Client Lease Verification](/home/b1swa/Downloads/Untitled%20Folder%202/DHCP/assets/image9.png)
+![Client Lease Verification](https://github.com/b1swa25/b1swa_Server-templete/blob/main/DHCP/assets/image9.png)
 <!-- slide -->
-![Windows Client Testing](/home/b1swa/Downloads/Untitled%20Folder%202/DHCP/assets/image11.png)
+![Windows Client Testing](https://github.com/b1swa25/b1swa_Server-templete/blob/main/DHCP/assets/image11.png)
 ````
 
 ---
@@ -81,7 +81,7 @@ sudo ./setup_private_dhcp_native.sh
 
 ## 🛠️ Troubleshooting & Diagnostics
 
-If you encounter issues, refer to the **[DHCP Debugging Guide](file:///home/b1swa/Downloads/Untitled%20Folder%202/DHCP/dhcp_debugging_guide.md)** or use the following standard commands:
+If you encounter issues, refer to the **[DHCP Debugging Guide](https://github.com/b1swa25/b1swa_Server-templete/blob/main/DHCP/config/dhcp_debugging_guide.md)** or use the following standard commands:
 
 ### Essential Health Checks
 ```bash
