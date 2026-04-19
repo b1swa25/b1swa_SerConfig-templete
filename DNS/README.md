@@ -1,6 +1,6 @@
 # 🌐 Native Private DNS (BIND9) Deployment Suite
 
-![DNS Branding](../assets/branding.png)
+![DNS Branding](https://github.com/b1swa25/b1swa_Server-templete/blob/main/DNS/assets/banner.png)
 
 A professional, native Linux DNS configuration suite designed for automated deployment of private network services. This suite leverages **BIND9** to provide robust forward and reverse DNS resolution with a focus on performance, security, and ease of management.
 
